@@ -47,11 +47,13 @@ int main() // This is the function "main"
 
 
     // Statements being made in SPRING
+    // If statement being made for the months of Apr and May, since they are entierly in spring
     if (Month_Num == 4 || Month_Num == 5)
     {
         cout << "It is spring!" << endl;
     }
 
+    // If statement being made for the month of Jun, made only for the days 1-20 since they are the only ones in the month that are in spring
     if (Month_Num == 6)
     {
         if (Day_Num >= 1 && Day_Num <= 20)
@@ -60,6 +62,7 @@ int main() // This is the function "main"
         }
     }
 
+    // If statements being made for the month of Mar, made only for the days 21-31 since they are the only ones in the month that are in spring 
     if (Month_Num == 3)
     {
         if (Day_Num >= 21 && Day_Num <= 31)
@@ -70,11 +73,13 @@ int main() // This is the function "main"
 
 
     // Statements being made in SUMMER
+    // If statements being made for the months of Jul and Aug, since they are entierly in the summer
     if (Month_Num == 7 || Month_Num == 8)
     {
         cout << "It is summer!" << endl;
     }
 
+    // If statements being made for the month of Sep, made only for the days 1-22 since they are the only ones in the month that are in the summer
     if (Month_Num == 9)
     {
         if (Day_Num >= 1 && Day_Num <= 22)
@@ -83,6 +88,7 @@ int main() // This is the function "main"
         }
     }
 
+    // If statement being made for the month of Jun, made only for the days 21-31 since they are the only ones in the month that are made in the summer
     if (Month_Num == 6)
     {
         if (Day_Num >= 21 && Day_Num <= 30)
@@ -92,11 +98,13 @@ int main() // This is the function "main"
     }
 
     // Statements being made in FALL
+    //If statement being made for the months of Oct and Nov, since they are entierly in the fall
     if (Month_Num == 10 || Month_Num == 11)
     {
         cout << "It is fall!" << endl;
     }
 
+    // If statement being made for the month of Dec, made only for the days 1-21 since they are the only ones in the month that are in the fall
     if (Month_Num == 12)
     {
         if (Day_Num >= 1 && Day_Num <= 21)
@@ -105,6 +113,7 @@ int main() // This is the function "main"
         }
     }
 
+    // If statement being made for the month of Sep, made only for the days 23-30 since they are the only ones in the month that are in the fall
     if (Month_Num == 9)
     {
         if (Day_Num >= 23 && Day_Num <= 30)
@@ -114,6 +123,15 @@ int main() // This is the function "main"
     }
 
 
-
+    // Made to break/end the code
     return 0;
 }
+
+/* Output of my code 
+
+Please input the number of the month and day with a space inbetween (Ex. 3 22 for March 22): 
+PLEASE INPUT A REAL MONTH AND A REAL DAY
+1 12
+It is winter!
+
+*/
